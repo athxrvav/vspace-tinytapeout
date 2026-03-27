@@ -8,12 +8,6 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-This is the final piece of the puzzle! Writing clear documentation ensures that when your chip comes back from the factory, anyone in the world can wire it up and use it.
-
-You will put this text inside the docs/info.md file in your repository. Here is the perfect, professional documentation tailored specifically to your stopwatch logic.
-
-How it works
 The V-SPACE Demo Hardware Stopwatch is a 1-second interval counter that displays digits from 0 to 9 on a standard 7-segment display. The design is broken down into three main hardware modules:
 
 + The Clock Divider: The Tiny Tapeout board provides a default 10 MHz clock. Our Verilog code uses a 24-bit register to count exactly 9,999,999 clock cycles, generating a single 1 Hz pulse (one pulse per second).
